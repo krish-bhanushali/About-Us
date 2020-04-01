@@ -5,11 +5,13 @@ void main() => runApp(MyApp());
 
 //add shadow below person icon
 //re do the icons in the contact us
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: MyHomePage(),
+      //removes the banner
       debugShowCheckedModeBanner: false,
     );
   }
@@ -22,7 +24,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  // ignore: missing_return
+  // function returning social media contacts
   Widget buildInfo(String imageName,String nextText){
 
     return Row( mainAxisAlignment: MainAxisAlignment.center,
@@ -59,15 +61,32 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[900],
+      //list view for scrollable
       body: ListView(
         children: <Widget>[
-           Padding(padding: EdgeInsets.only(top:15.0,left: 10.0),
+          //top bar icons
+          Padding(padding: EdgeInsets.only(top:15.0,left: 10.0),
              child: Row(
-               mainAxisAlignment: MainAxisAlignment.spaceBetween ,
+               mainAxisAlignment: MainAxisAlignment.start ,
                children: <Widget>[
                  IconButton(icon: Icon(Icons.arrow_back_ios,
                  color: Colors.grey[350],
                  ), onPressed: null),
+
+                 Text('C',style: TextStyle(
+                     fontFamily: 'Montserrat',
+                     fontSize: 20.0,
+                     color: Colors.white,
+                     fontWeight: FontWeight.bold
+
+                 ),),
+                 Text('uriosity',style: TextStyle(
+                     fontFamily: 'Montserrat',
+                     fontSize: 20.0,
+                     color: Colors.grey[350]
+
+                 ),),
+                 SizedBox(width:120.0 ,),
                  Container(
                    width: 125.0,
                    child: Row(
@@ -246,7 +265,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: <Widget>[
                 Container(
                   height: 70.0,
-                  width: 300.0,
+                  width: 350.0,
                   child: Row(
                     children: <Widget>[
                       FlatButton(onPressed: null, child: Image.asset('images/mail.png')),
