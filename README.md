@@ -11,7 +11,7 @@ Now again I made this one from scratch , tried for a minimalist design not perfe
 - add shadows 
 - planning to go for colorful designs after this and light theme too
 
-# What Did I learnt 
+# What Did I learn
 Okay so I know professional readme's are totally different, after I complete everything I will remodify every readme.
 - Okay I learnt to have a scrollable page
 - how to remove the debug banner
