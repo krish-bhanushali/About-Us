@@ -22,6 +22,7 @@ Though I need to learn layouts and study containers, paddings, rows , columns mo
 # Visuals
 About us Page:
 ![](images/visual3.jpg)
+Image 2:
 ![](images/visual4.jpg)
 
 ## Getting Started
