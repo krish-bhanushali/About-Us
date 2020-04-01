@@ -20,9 +20,9 @@ Okay so I know professional readme's are totally different, after I complete eve
 Though I need to learn layouts and study containers, paddings, rows , columns more 
 
 # Visuals
-About us Page:
+
 ![](images/Visual3.jpg)
--
+
 ![](images/Visual4.jpg)
 
 ## Getting Started
